@@ -1,69 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Laguna Brava Ecotourism</title>
+    <meta charset="UTF-8">
+    <title>Things to Do in Laguna Brava</title>
 </head>
+
 <body>
 
- <img src="img/laguna-brava-panoramic.jpg" alt="Laguna Brava lake" title="Laguna Brava">
+<header>
+    <img src= "img/laguna-brava-panoramic.jpg" alt="Panoramic view of Laguna Brava">
 
-    <h1>Welcome to Laguna Brava Ecotourism</h1>
-
+    <h1>Things to Do in Laguna Brava</h1>
 
     <p>
         Learn everything about the activities that Laguna Brava offers to its visitors.
     </p>
 
-    <h2>Activities</h2>
+    <nav>
+        <ul>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#communities">The Local Communities</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <p>
-        The Mayan communities of the 
-        <a href="https://en.wikipedia.org/wiki/Chuj_people" target="_blank">
-            Chuj ethnicity
-        </a>
-        settled around the lake offer several activities that allow visitors to enjoy Laguna Brava's natural beauty.
-    </p>
+<main>
 
-    <h3>The Lake Challenge</h3>
+    <!-- Activities Section -->
+    <section id="activities">
+        <h2>Activities</h2>
 
-    <p>
-        Put your strengths to work by crossing the four kilometers in a kayak guided by a local guide.
-        This adventure is physically demanding and recommended for only those in excellent physical condition.
-    </p>
+        <p>
+            <strong>
+                In both activities, members of the Laguna Brava's community provide life vests and local guides who know the lake very well to ensure your safety.
+            </strong>
+        </p>
 
-    <ul>
-        <li>Duration: 5 hours approx.</li>
-        <li>Price: USD 50</li>
-        <li>Minimum: 2 pax</li>
-    </ul>
+        <!-- Article 1 -->
+        <article>
+            <h3>The Lake Challenge</h3>
 
-<img src="img/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava">
+            <p>
+                Put your strengths to work by crossing the four kilometers in a kayak guided by a local guide.
+                This adventure is physically demanding and recommended only for those in excellent physical condition.
+            </p>
+
+            <figure>
+                <img src="img/kayak.jpg" alt="Kayaking in Laguna Brava">
+                <figcaption>Cross the four kilometers in a kayak.</figcaption>
+            </figure>
+
+            <ul>
+                <li>Duration: 5 hours approx.</li>
+                <li>Price: $50 USD</li>
+                <li>Minimum: 2 pax</li>
+            </ul>
+        </article>
+
+        <!-- Article 2 -->
+        <article>
+            <h3>Sit Back & Relax</h3>
+
+            <p>
+                Admire the nature of Laguna Brava by boarding a rowing boat around the most beautiful parts of the lake.
+                This guided visit does not require physical effort.
+            </p>
+
+            <figure>
+                <img src="img/boat.jpg" alt="Rowing boat in Laguna Brava">
+                <figcaption>Board a rowing boat and admire the nature of Laguna Brava.</figcaption>
+            </figure>
+
+            <ul>
+                <li>Duration: 3 hours approx.</li>
+                <li>Price: $40 USD</li>
+                <li>Minimum: 4 pax</li>
+            </ul>
+        </article>
+
+    </section>
+
+    <!-- Local Communities Section -->
+    <section id="communities">
+        <h2>The Local Communities</h2>
+
+        <p>
+            The area around Laguna Brava has been inhabited by Mayan communities of the Chuj ethnicity since the 19th century.
+            Members of these communities welcome travelers from all regions of the world looking for adventure and nature.
+            They believe that visitors and <em>responsible ecotourism practices</em> are essential to support the development of their communities.
+        </p>
+    </section>
+
+</main>
 
 <hr>
 
-<form action="https://script.google.com/macros/s/AKfycbyUXMdsya1J6OEHS8u2T0-0oDvetBnQ64wywuiJkHYI_5AVTAldUq7owrmf_VTT15c9/exec" method="post">
+<aside>
+    <h2>Have you travelled to Laguna Brava?</h2>
+    <p>We want to know about your experiences.</p>
 
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Write your name">
+        <br><br>
 
-    <label for="name">Name: </label>
-    <input type="text" name="name" id="name" placeholder="Write your name">
-    <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Write your email">
+        <br><br>
 
-    <label for="email">Email: </label>
-    <input type="email" name="email" id="email" placeholder="Write your email">
-    <br><br>
+        <label for="experience">Experience:</label>
+        <br>
+        <textarea id="experience" rows="5" cols="40" placeholder="Please share your experience."></textarea>
+        <br><br>
 
-    <label for="experience">Experience: </label>
-    <br>
-    <textarea name="experience" id="experience"
-        placeholder="Please share with us your experience."
-        rows="5" cols="50"></textarea>
-    <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</aside>
 
-    <input type="submit" value="Submit">
- 
-</form>
-
+<footer>
+    &copy; 2026 Laguna Brava Ecotourism
+</footer>
 
 </body>
 </html>
