@@ -10,7 +10,5 @@ This site demonstrates a structured HTML page using headings, images, lists, lin
 📍 View the live site here (GitHub Pages):  
 https://jalilgreen11-png.github.io/laguna-brava-ecotourism/
 
-> If the site isn’t showing yet, go to repo **Settings → Pages** and ensure *main* branch + root folder is selected.
-
 
 📂 Repository Contents
