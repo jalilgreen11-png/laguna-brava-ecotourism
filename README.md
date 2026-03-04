@@ -5,10 +5,3 @@ This repository contains my Lab Engagement #2 submission for Content Structure (
 This site demonstrates a structured HTML page using headings, images, lists, links, and a simple form — following the tutorial: Structuring the content of your website.
 
 
-🖥️ Live Website
-
-📍 View the live site here (GitHub Pages):  
-https://jalilgreen11-png.github.io/laguna-brava-ecotourism/
-
-
-📂 Repository Contents
